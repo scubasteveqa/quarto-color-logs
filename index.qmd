@@ -1,24 +1,17 @@
 ---
-title: "ANSI Colors in Quarto Logs"
+title: "\033[34mDemo of ANSI Colors in Metadata\033[0m"
 format: html
 jupyter: python3
 ---
 
-# Example of ANSI Colored Logs
+# Demonstrating ANSI Colors in Metadata
 
-This document demonstrates how to include ANSI colored logs in a Quarto document.
+## ANSI Colors in Metadata
 
-```{python}
-import colorama
-from colorama import Fore, Style
+Although ANSI colors can't be rendered directly in metadata, here's how you might include ANSI color codes in metadata fields as plain text:
 
-colorama.init()
-
-def print_colored_logs():
-    print(Fore.RED + "This is an error message" + Style.RESET_ALL)
-    print(Fore.GREEN + "This is a success message" + Style.RESET_ALL)
-    print(Fore.YELLOW + "This is a warning message" + Style.RESET_ALL)
-    print(Fore.BLUE + "This is an info message" + Style.RESET_ALL)
-
-print_colored_logs()
+```plaintext
+Title: \033[34m"Demo of ANSI Colors in Metadata"\033[0m
+Format: \033[32m"html"\033[0m
+Jupyter: \033[33m"python3"\033[0m
 ```

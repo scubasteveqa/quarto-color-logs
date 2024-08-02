@@ -20,4 +20,4 @@ The following section contains incorrect Markdown syntax that will cause a rende
 **Bold text without closing**
 
 # Another heading
-```
+

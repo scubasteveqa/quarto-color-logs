@@ -29,3 +29,4 @@ def cause_syntax_error()
     print("This will cause a syntax error")
 
 log_with_colors()
+```

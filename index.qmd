@@ -21,3 +21,4 @@ def print_colored_logs():
     print(Fore.BLUE + "This is an info message" + Style.RESET_ALL)
 
 print_colored_logs()
+```

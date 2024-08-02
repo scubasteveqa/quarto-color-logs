@@ -1,0 +1,23 @@
+---
+title: "This will fail to render"
+format: html
+jupyter: python3
+---
+
+# Deliberate Syntax Error
+
+This document contains a deliberate syntax error to trigger a rendering failure.
+
+## Incorrect Markdown Syntax
+
+The following section contains incorrect Markdown syntax that will cause a rendering error:
+
+```markdown
+# This is a heading
+- This is a list item
+- Another list item
+
+**Bold text without closing**
+
+# Another heading
+```

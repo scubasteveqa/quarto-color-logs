@@ -1,5 +1,5 @@
 ---
-title: "Failing Render with ANSI Colors in Logs"
+title:  "\033[34mDemo of ANSI Colors in Metadata\033[0m"
 format: html
 jupyter: python3
 ---
